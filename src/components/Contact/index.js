@@ -26,15 +26,17 @@ class Contact extends Component {
 
         <section className="contactForm">
           <form>
-            <label>Name</label>
-            <input type="text" name="status" maxlength="140" />
+            <div className="contactName">
+              <label>Name <span>*</span></label>
+              <input type="text" name="name" maxlength="140" />
+            </div>
 
-            <label>Email</label>
-            <input type="text" name="status" maxlength="140" />
+            <div className="contactEmail">
+              <label>Email <span>*</span></label>
+              <input type="text" name="email" maxlength="140" />
+            </div>
 
-            <textarea rows="25" cols="90">
-            At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-            </textarea>
+            <textarea rows="15" cols="90"></textarea>
 
             <input type="submit" value="Submit" />
           </form>
