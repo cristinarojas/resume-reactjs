@@ -1,0 +1,28 @@
+.About {
+    float: left;
+    width: 80%;
+}
+
+.About h1 {
+    font-size: 2em;
+    color: rgb(209, 15, 28);
+}
+
+.About img {
+    width: 35%;
+    height: 335px;
+    margin: 0 auto;
+    display: block;
+}
+
+.About h2 {
+    color: #AEB2BD;
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.About p {
+    color: #777474;
+    font-size: 14px;
+    line-height: 1.7;
+}

@@ -1,0 +1,34 @@
+.Contact {
+    float: left;
+    width: 80%;
+}
+
+
+.Contact h1 {
+    font-size: 2em;
+    color: rgb(209, 15, 28);
+}
+
+.Contact .contactInformation {
+    width: 30%;
+    float: left;
+}
+
+.Contact .contactInformation p {
+    color: #777474;
+    font-size: 14px;
+}
+
+.Contact .contactInformation .information {
+    color: #AEB2BD;
+}
+
+.Contact .contactForm {
+    border: 1px solid blue;
+    width: 60%;
+    float: left;
+}
+
+.Contact .contactForm label {
+    display: block;
+}

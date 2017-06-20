@@ -1,0 +1,28 @@
+.Portafolio {
+    float: left;
+    width: 80%;
+}
+
+.Portafolio h1 {
+    font-size: 2em;
+    color: rgb(209, 15, 28);
+}
+
+.Portafolio article {
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.Portafolio .project {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.Portafolio p {
+    color: #777474;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
